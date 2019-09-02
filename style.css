@@ -1,0 +1,8 @@
+#hueso{
+    position: absolute;
+    z-index: 100;
+    left: 270px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+}
