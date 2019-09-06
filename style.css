@@ -21,18 +21,52 @@
 }
 
 /*edita todos los tag nav*/
-nav{
+/*nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     background-color: red;
-}
+}*/
 
 /*edita todos los que tengan el identificador*/
-#nav-container-02{
+/*#nav-container-02{
    background-color: yellow; 
+}*/
+
+:root{
+    --csm-red: #d93831;
+    --csm-gray-hard: #58585a;
+    --csm-gray: 	#bbbbbb;
+}
+
+body{
+    background-color: var(--csm-gray-hard);
+    margin: 0;
 }
 
 /*todos los que tengan la clase*/
 .nav-menu-bar{
-    background-color: violet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 70px;
+    text-align: center;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+}
+
+.main-container{
+    background-color: var(--csm-gray);
+    width: 95%;
+    min-height: 400px;
+    margin: 0 auto;
 }
