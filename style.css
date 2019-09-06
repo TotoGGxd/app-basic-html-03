@@ -19,3 +19,20 @@
 .btn-drum{
     position: relative;
 }
+
+/*edita todos los tag nav*/
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: red;
+}
+
+/*edita todos los que tengan el identificador*/
+#nav-container-02{
+   background-color: yellow; 
+}
+
+/*todos los que tengan la clase*/
+.nav-menu-bar{
+    background-color: violet;
+}

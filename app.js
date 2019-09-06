@@ -1,4 +1,4 @@
-const doge = document.getElementById('doge');
+/*const doge = document.getElementById('doge');
 
 doge.addEventListener('click', ()=>{
     console.log('Guau, guau.');
@@ -11,4 +11,4 @@ drumButtons.forEach(
             button.style.left = `${button.dataset.posx}px`; 
             button.style.top = `${button.dataset.posy}px`;
         } 
-);
+);*/
